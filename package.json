@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "daisyui": "^4.12.14",
     "tailwindcss": "^3.4.15"
   },
   "name": "website-pkl",
@@ -101,7 +102,7 @@
     "watch": "tailwindcss -i ./src/input.css -o ./css/style.css --watch"
   },
   "keywords": [],
-  "author": "",
+"author": "",
   "license": "ISC",
   "description": ""
 }
