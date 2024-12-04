@@ -6,24 +6,35 @@
         <title>Atrem Project</title>
         <link rel="stylesheet" href="css/style.css" />
         <style>
+            html{
+                scroll-behavior: smooth;
+            }
             body {
                 overflow-x: hidden;
             }
         </style>
     </head>
     <body>
-        <nav class=" my-container navbar">
+        <nav class="fixed z-40 my-container navbar">
             <div class="navbar-start"></div>
-            <div class="navbar-center">
-                <div class="flex space-x-4">
-                    <a href="#company" class="nav-link">Company</a>
-                    <a href="#learnings" class="nav-link">Learning</a>
-                    <a href="#sideq" class="nav-link">Side Quest</a>
-                    <a href="#projects" class="nav-link">Project</a>
+            <div class="border navbar-center backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/5">
+                <div class="flex p-4 space-x-4">
+                    <div class="mx-8 space-x-4">
+                        <a href="#company" class="nav-link">Company</a>
+                        <a href="#learnings" class="nav-link">Learning</a>
+                        <a href="#sideq" class="nav-link">Side Quest</a>
+                        <a href="#projects" class="nav-link">Project</a>
+                    </div>
                 </div>
             </div>
             <div class="navbar-end"></div>
         </nav>
+        <!-- <nav class="fixed flex p-4 px-12 mt-3 space-x-4 transform -translate-x-1/2 rounded-xl left-1/2 bg-[#efefef] backdrop-blur-2xl">
+            <a href="#company" class="nav-link">Company</a>
+            <a href="#learnings" class="nav-link">Learning</a>
+            <a href="#sideq" class="nav-link">Side Quest</a>
+            <a href="#projects" class="nav-link">Project</a>
+        </nav>         -->
         <header class="relative flex items-center justify-center w-full min-h-[90vh]">
             <h1 class="text-4xl font-bold text-center text-primary leading-[100px]">
                 Praktek Kerja Lapangan <br />
@@ -33,18 +44,19 @@
             <img src="assets/decoration/star.svg" alt="" class="absolute bottom-[240px] w-8 left-[400px]" />
             <img src="assets/decoration/star.svg" alt="" class="absolute bottom-[200px] right-[440px] w-10 opacity-60" />
             <img src="assets/decoration/star.svg" alt="" class="absolute top-[200px] right-[240px] w-12 opacity-80" />
-            <img src="assets/decoration/effect.png" alt="" class="absolute left-0 h-full">
-            <img src="assets/decoration/effect-r.png" alt="" class="absolute right-0 h-full">
+            <img src="assets/decoration/effect.png" alt="" class="absolute left-0 h-full" />
+            <img src="assets/decoration/effect-r.png" alt="" class="absolute right-0 h-full" />
         </header>
-    <section class="mt-[200px] mb-[100px] my-container">
-        <h2 class="text-center section-title">
-            Tentang Agensi <br> <span class="text-secondary">Atrem Project</span>
-        </h2>
-        <div class="flex mt-16">
-            <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary">Atrem Project</p>
-            <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary/30">Sejarah Atrem Project</p>
-            <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary/30">System Internship</p>
-        </div>
-    </section>
+        <section class="mt-[200px] mb-[100px] my-container" id="company">
+            <h2 class="text-center section-title">
+                Tentang Agensi <br />
+                <span class="text-secondary">Atrem Project</span>
+            </h2>
+            <div class="flex mt-16">
+                <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary">Atrem Project</p>
+                <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary/30">Sejarah Atrem Project</p>
+                <p class="flex-1 py-6 text-lg font-semibold text-center border-b-2 text-text border-b-primary/30">System Internship</p>
+            </div>
+        </section>
     </body>
 </html>
