@@ -14,6 +14,12 @@
     .section-title{
         @apply font-bold text-3xl text-text leading-[72px]
     }
+    .skill-card{
+        @apply flex justify-center items-center bg-transparent text-text hover:bg-primary hover:text-white p-4 duration-300
+    }
+    .but-active{
+        @apply 
+    }
 }
 body{
     overflow-x: hidden;
